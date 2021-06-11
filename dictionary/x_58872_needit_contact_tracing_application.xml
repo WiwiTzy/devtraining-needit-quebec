@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Contact Tracing Application" max_length="40" name="x_58872_needit_contact_tracing_application" sizeclass="0" type="collection">
+        <element label="Contact Number" max_length="20" name="contact_number" reference="sys_sg_empty_state" type="integer"/>
+        <element label="Name" max_length="50" name="name" reference="sys_sg_empty_state" type="string"/>
+        <element label="Symptoms" max_length="100" name="symptoms" reference="sys_sg_empty_state" type="string"/>
+        <element label="Temperature" max_length="5" name="temperature" reference="sys_sg_empty_state" type="integer"/>
+        <element label="Travel History" max_length="100" name="travel_history" reference="sys_sg_empty_state" type="string"/>
+    </element>
+</database>
