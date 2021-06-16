@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="WiwiTzy" max_length="40" name="x_58872_needit_wiwitzy" sizeclass="7" type="collection">
+        <element label="Contact Number" max_length="40" name="contact_number" type="integer"/>
+        <element label="Employee Name" max_length="40" name="employee_name" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element label="Number" max_length="40" name="number" type="integer"/>
+        <element label="Symptoms" max_length="40" name="symptoms" type="string"/>
+        <element label="Temperature" max_length="20" name="temperature" type="decimal"/>
+        <element label="Travel History" max_length="40" name="travel_history" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="uptown tower 1" label="Location" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Uptown Tower 1" sequence="0" value="uptown tower 1"/>
+                <element inactive_on_update="false" label="Uptown Tower 3" sequence="0" value="Uptown Tower 3"/>
+                <element inactive_on_update="false" label="Uptown Tower 2" sequence="1" value="uptown tower 2"/>
+                <element inactive_on_update="false" label="Cybergate Tower 1" sequence="2" value="cybergate tower 1"/>
+                <element inactive_on_update="false" label="Cybergate Tower 2" sequence="3" value="cybergate tower 2"/>
+                <element inactive_on_update="false" label="Cybergate Tower 3" sequence="4" value="cybergate tower 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="lack of smell" label="Symptoms" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Dry Cough&#10;Lack of Smell" sequence="0" value="Dry Cough&#10;Lack of Smell"/>
+                <element inactive_on_update="false" label="Headache&#10; Dry Cough" sequence="0" value="Headache&#10; Dry Cough"/>
+                <element inactive_on_update="false" label="Lack of Smell" sequence="0" value="lack of smell"/>
+                <element inactive_on_update="false" label="Lack of Taste&#10;Headache" sequence="0" value="Lack of Taste&#10;Headache"/>
+                <element inactive_on_update="false" label="Lack of Taste" sequence="1" value="lack of taste"/>
+                <element inactive_on_update="false" label="Headache" sequence="2" value="headache"/>
+                <element inactive_on_update="false" label="Dry Cough" sequence="3" value="dry cough"/>
+            </choice>
+        </element>
+    </element>
+</database>
